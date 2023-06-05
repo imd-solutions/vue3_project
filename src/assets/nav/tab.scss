@@ -1,0 +1,28 @@
+.tabs__header {
+  display: block;
+  list-style: none;
+  margin: 0 0 0 20px;
+  padding: 0;
+  background-color: $light-grey;
+  border-radius: 10px 0 0 0;
+
+  > li {
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin: 0;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 10px 0 0 0;
+    background-color: $light-grey;
+    cursor: pointer;
+  }
+
+  > li.is-active {
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+    border-bottom: none !important;
+    background-color: $white;
+    border: 1px solid $light-grey;
+    cursor: default;
+  }
+}

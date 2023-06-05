@@ -1,0 +1,21 @@
+.datatable {
+
+    .table tr.is-selected {
+        font-size: 12px;
+        font-weight: 400;
+        background-color: #ffffff;
+        color: #6a6d7d;
+        border-bottom: 2px solid #e6e6e6;
+    }
+
+    .table th {
+        border-bottom: 1px solid #e6e6e6;
+        padding: 1em 2em;
+    }
+
+    .table td{
+        padding: 1.5em 1.75em;
+    }
+
+}
+

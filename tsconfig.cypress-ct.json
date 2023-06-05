@@ -1,0 +1,21 @@
+{
+  "extends": "./tsconfig.app.json",
+  "include": [
+    "env.d.ts",
+    "src/**/*",
+    "src/**/*.vue",
+    "cypress/support/component.*",
+    "cypress/support/commands.ts",
+    "__e2e__/HelloWorld.cy.ts",
+    "alias.ts"
+  ],
+  "exclude": [],
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "nodenext",
+    "ignoreDeprecations": "5.0",
+    "experimentalDecorators": true,
+    "composite": true
+  }
+}

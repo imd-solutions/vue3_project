@@ -1,0 +1,35 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.json",
+  "include": [
+    "env.d.ts",
+    "shims-vue.d.ts",
+    "src/**/*",
+    "src/**/*.vue",
+    "__e2e__/HelloWorld.cy.ts",
+    "alias.ts"
+  ],
+  "exclude": ["src/**/__tests__/*"],
+  "compilerOptions": {
+    "ignoreDeprecations": "5.0",
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "nodenext",
+    "strictNullChecks": false,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "composite": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"],
+      "@/stores/*": ["./stores/*"],
+      "@/components/*": ["./components/*"],
+      "@data/*": ["./../src/__data__/*"],
+      "@stores/*": ["./stores/*"],
+      "@/partials/*": ["./partials/*"],
+      "@/utils/*": ["./utils/*"],
+      "@/assets/*": ["./assets/*"],
+      "@/app/*": ["./app/*"],
+      "@/data/*": ["./data/*"]
+    }
+  }
+}

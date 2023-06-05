@@ -1,0 +1,15 @@
+{
+  "production": false,
+  "ccaasBaseUrl": "https://ccaas-gb.dev.xplortechnologies.com",
+  "logoutUrl": "",
+  "auth": {
+    "issuer": "https://sb-xplor.oktapreview.com/oauth2/default",
+    "clientId": "0oa77hx5awdw2ijab1d7",
+    "redirectUri": "/ccp/login/callback",
+    "response_type": "id_token token",
+    "scopes": ["openid", "profile"]
+  },
+  "featureFlags": {
+    "okta": true
+  }
+}

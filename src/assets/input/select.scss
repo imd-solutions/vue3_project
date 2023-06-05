@@ -1,0 +1,25 @@
+.input-select {
+  .is-one-third {
+    .select {
+      width: 25em;
+
+      select:not([multiple]) {
+        width: 25em;
+      }
+    }
+  }
+
+  .select:not(.is-multiple):not(.is-loading)::after {
+    border-color: #272431;
+  }
+
+  .is-half {
+    .select {
+      width: 40em;
+
+      select:not([multiple]) {
+        width: 40em;
+      }
+    }
+  }
+}

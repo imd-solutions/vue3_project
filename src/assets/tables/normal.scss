@@ -1,0 +1,34 @@
+.normalContent {
+  background: white;
+
+  .table {
+    width: 100%;
+
+    .lightGrey {
+      background-color: #e9e9e9;
+      color: #333333;
+      border: 3px solid #666666;
+    }
+
+    .lightRed {
+      background-color: #ffebea;
+      color: red;
+      border: 3px solid red;
+    }
+
+    .red {
+      background-color: #ffebea;
+      color: red;
+    }
+
+    .amber {
+      background-color: #ffe8c7;
+      color: #fa9200;
+    }
+
+    .green {
+      background-color: #d7f8ab;
+      color: green;
+    }
+  }
+}

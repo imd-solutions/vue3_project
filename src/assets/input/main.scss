@@ -1,0 +1,11 @@
+@import "./checkbox.scss";
+@import "./select.scss";
+@import "./text.scss";
+
+.inputLabel {
+    color: #272431;
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
